@@ -1,0 +1,7 @@
+---
+- name: "Installing Wordpress"
+  hosts: amazon
+  become: true
+  roles:
+    - lamp
+    - wordpress
